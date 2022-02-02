@@ -1,4 +1,5 @@
 const express = require("express");
+const res = require("express/lib/response");
 const app = express();
 const port = process.env.PORT || 3001;
 const { sequelize } = require("./db");
