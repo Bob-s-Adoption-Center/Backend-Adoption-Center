@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "@petfinder/petfinder-js": "^1.0.6",
+    "babel-jest": "^27.4.6",
     "express": "^4.17.2",
-    "jest": "^27.4.7",
+    "react-test-renderer": "^17.0.2",
     "sequelize": "^6.15.0",
     "sqlite3": "^5.0.2"
   },
@@ -24,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Bob-s-Adoption-Center/Backend-Adoption-Center/issues"
   },
-  "homepage": "https://github.com/Bob-s-Adoption-Center/Backend-Adoption-Center#readme"
+  "homepage": "https://github.com/Bob-s-Adoption-Center/Backend-Adoption-Center#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
 }
