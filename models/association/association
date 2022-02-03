@@ -1,0 +1,10 @@
+const {sequelize, DataTypes, Model} = require('./db');
+
+const { Dog } = require('./models/dog');
+const { Dogs } = require('./models/dogs');
+
+
+Dog.belongsTo(Dogs);
+Dogs.hasMany(Dog);
+
+module.exports = {Dogs,Dog,sequelize};
