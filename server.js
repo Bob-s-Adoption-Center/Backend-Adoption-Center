@@ -4,6 +4,11 @@ const port = process.env.PORT || 3001;
 const { sequelize } = require("./db");
 const { Dog } = require("./models/dog");
 
+//cors
+const cors = require('cors');
+app.use(cors());
+
+
 // serve static assets from the public/ folder
 app.use(express.static(__dirname + "/"));
 // support the parsing of incoming requests with json payloads
