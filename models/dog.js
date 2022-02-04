@@ -13,7 +13,7 @@ Dog.init(
         description: DataTypes.STRING,
         gender: DataTypes.STRING,
         size: DataTypes.STRING,
-        status: DataTypes.STRING
+        status: {type:DataTypes.STRING, defaultValue: "Available"}
 
     },
     {
