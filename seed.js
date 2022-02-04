@@ -1,7 +1,7 @@
 const { sequelize } = require('./db')
-const { Dog } = require('./models/dog')
+const { Dog} = require('./models/dog')
 
-const seedDogs = [{
+const seedDog = [{
     name: "Bob",
     breed: "pug",
     age: 2,
@@ -62,7 +62,7 @@ const seed = async() => {
     try {
     await sequelize.sync({ force: true});
     await sequelize.authenticate();
-    await Dog.bulkCreate(seedDogs, {validate: true})
+    await Dog.bulkCreate(seedDog, {validate: true})
     console.log("Connection has been established successfully.");
     sequelize.close()
 } catch (error) {

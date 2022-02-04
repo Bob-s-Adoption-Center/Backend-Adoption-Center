@@ -1,4 +1,4 @@
-const { sequelize } = require('../db')
+const { sequelize,  } = require('../db')
 const { DataTypes, Model } = require("sequelize");
 
 class Dog extends Model {}
@@ -11,7 +11,9 @@ Dog.init(
         location: DataTypes.STRING,
         image: DataTypes.STRING,
         description: DataTypes.STRING,
-        gender: DataTypes.STRING
+        gender: DataTypes.STRING,
+        size: DataTypes.STRING,
+        status: DataTypes.STRING
 
     },
     {
