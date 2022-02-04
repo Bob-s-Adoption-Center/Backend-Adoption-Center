@@ -4,6 +4,7 @@
     "@babel/preset-react": "^7.16.7",
     "@petfinder/petfinder-js": "^1.0.6",
     "babel-jest": "^27.4.6",
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "react-test-renderer": "^17.0.2",
     "sequelize": "^6.15.0",
