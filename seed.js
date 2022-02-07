@@ -1,5 +1,5 @@
 const { sequelize } = require('./db')
-const { Dog } = require('/models/dog')
+const { Dog } = require('./models/dog')
 
 const seedDog = [{
     name: "Bob",

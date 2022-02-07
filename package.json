@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@petfinder/petfinder-js": "^1.0.6",
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "jest": "^27.4.7",
@@ -12,7 +13,6 @@
     "test:report": "jest --coverage=true",
     "start": "node server.js"
   },
-  
   "name": "backend-adoption-center",
   "description": "",
   "version": "1.0.0",
