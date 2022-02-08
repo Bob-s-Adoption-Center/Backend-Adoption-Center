@@ -3,11 +3,8 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@petfinder/petfinder-js": "^1.0.6",
-<<<<<<< HEAD
     "babel-jest": "^27.4.6",
-=======
     "bcrypt": "^5.0.1",
->>>>>>> 96eb6f2f7f7f04c391877c5883db72eea89eeee5
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "react-test-renderer": "^17.0.2",
