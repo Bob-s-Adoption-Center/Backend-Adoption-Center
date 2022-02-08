@@ -24,12 +24,13 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get('/dogs/:id', async (req, res) => {
   const dog = await Dog.findByPk(req.params.id);
-  res.json({dog})
+  //testing to see if {} is needed
+  res.json({dog});
 })
 
 app.get('/dogs', async (req, res) => {
   const dogs = await Dog.findAll();
-  res.json(dogs)
+  res.json({dogs})
 })
 
 app.post('/signin', async (req,res) =>{
