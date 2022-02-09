@@ -16,8 +16,8 @@ describe("Dog Datbase", () => {
         description: "Bob is a pug who loves to play fetch and is a good",
         gender: "Male",
         size: "Medium",
-        status: "Not Available",
         color: "white",
+        status: "Not Available",
       },
       {
         name: "Rocky",
@@ -29,8 +29,8 @@ describe("Dog Datbase", () => {
           "Rocky is a sweet, cute little cuddly monkey. He loves long walks, cuddling in your lap at all times, and being your shadow. He's a senior dog that keeps mostly to himself. Doesn't mind children or other animals, but prefers not to play with them.  Likes to wrestle and looking out the window. Prefers warm locals versus a cold area. He has separation anxiety and prefers a human that works from home",
         gender: "Male",
         size: "Medium",
-        status: "",
         color: "white",
+        status: "",
       },
       {
         name: "Willow",
@@ -42,8 +42,8 @@ describe("Dog Datbase", () => {
           "Willow loves being outside more than anything. She is very fast and loves using her full speed in a big backyard. She loves kids and women, but is occasionally weary of men. She has a really deep bark, she almost sounds like a bigger dog. She will gladly alert you of any intruders on the premises. She is very well trained to potty outside and to sit when told. She has such a beautiful coat that doesn’t require much grooming. She is a little anxious at times, especially in the car, but it’s likely that that can be helped over time. She is currently 7 pounds. ",
         gender: "Female",
         size: "Medium",
-        status: "",
         color: "white",
+        status: "",
       },
       {
         name: "Indi",
@@ -55,8 +55,8 @@ describe("Dog Datbase", () => {
           "Indi loves being the center of attention and is super sassy. She begs for pets from strangers, so she loves meeting new people and is good with children. Her favorite toy is a mini Joker figure (will be sent with her) and previously she really enjoyed playing with her sister. She will definitely need another doggy companion. She’s still really young, only 3 months so she does sleep a lot, but when she’s awake, boy is she so full of energy. She loves going outside to play and run around. She is currently still learning to go potty outside. She will end up being between 7 and 10 pounds.",
         gender: "Female",
         size: "Medium",
-        status: "",
         color: "white",
+        status: "",
       },
       {
         name: "Balto",
@@ -68,8 +68,8 @@ describe("Dog Datbase", () => {
         description: "German breed of working dog of medium to large size",
         gender: "Male",
         size: "Medium",
-        status: "",
         color: "white",
+        status: "",
       },
       {
         name: "Pequena",
@@ -81,8 +81,8 @@ describe("Dog Datbase", () => {
           "Pequena is a sweet and active chihuahua that loves to cuddle and belly rubs. She loves to be outside and play.",
         gender: "Female",
         size: "Medium",
-        status: "",
         color: "white",
+        status: "",
       },
     ];
 
@@ -104,8 +104,8 @@ describe("Dog Datbase", () => {
     );
     expect(testDog.gender).toBe("Male");
     expect(testDog.size).toBe("Medium");
-    expect(testDog.status).toBe("Not Available");
     expect(testDog.color).toBe("white");
+    expect(testDog.status).toBe("Not Available");
   });
 
   afterAll(async () => {
