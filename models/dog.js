@@ -13,9 +13,8 @@ Dog.init(
         description: DataTypes.STRING,
         gender: DataTypes.STRING,
         size: DataTypes.STRING,
+        color: DataTypes.STRING,
         status: {type:DataTypes.STRING, defaultValue: "Available"},
-        color: DataTypes.STRING
-
     },
     {
         sequelize,
