@@ -22,11 +22,11 @@ app.use(express.json());
 // support the parsing of incoming requests with urlencoded payloads (e.g. form POST)
 app.use(express.urlencoded({ extended: false }));
 
-app.get('/dogs/:id/:id', async (req, res) => {
-  const dog = await Dog.findByPk(req.params.id);
-  //testing to see if {} is needed
-  res.json({dog});
-})
+// app.get('/dogs/:id/:id', async (req, res) => {
+//   const dog = await Dog.findByPk(req.params.id);
+//   //testing to see if {} is needed
+//   res.json({dog});
+// })
 
 app.get('/dogs/:id', async (req, res) => {
   const dog = await Dog.findByPk(req.params.id);
