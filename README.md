@@ -8,3 +8,7 @@ Team Members:
 
 - Michael DunnOconnor
 
+# Testing 
+
+- Jest
+- SonarCloud
