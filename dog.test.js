@@ -89,7 +89,7 @@ describe("Dog Datbase", () => {
     const testDog = await Dog.findOne({ where: { name: "Bob" } });
     //expect(testDog.id).toBe(1)
     expect(testDog.name).toBe("Bob");
-    expect(testDog.breed).toBe("pug");
+    expect(testDog.breed).toBe("Pug");
     expect(testDog.age).toBe("Young");
     expect(testDog.location).toBe("San Francisco");
     expect(testDog.image).toBe(
