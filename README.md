@@ -8,3 +8,11 @@ Team Members:
 
 - Michael DunnOconnor
 
+# Testing 
+
+- Jest
+- SonarCloud
+
+# Deployment
+
+- Heroku

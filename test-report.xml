@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Amanda\OneDrive\Documents\projects\bob\Backend-Adoption-Center\dog.test.js">
+    <testCase name="Dog Datbase can create dogs" duration="17"/>
+  </file>
+</testExecutions>
