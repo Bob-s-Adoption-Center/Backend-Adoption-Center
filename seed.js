@@ -88,5 +88,6 @@ const seed = async() => {
 } catch (error) {
     console.error("Unable to connect to the database:", error);
 }
-}
 return seed();
+}
+//return seed();
