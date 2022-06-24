@@ -1,4 +1,4 @@
-# Backend-Adoption-Center...
+# Backend-Adoption-Center
 
 Team Members:
 - Raven Redix
