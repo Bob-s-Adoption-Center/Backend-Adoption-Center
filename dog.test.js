@@ -12,7 +12,7 @@ describe("Dog Datbase", () => {
         age: "Young",
         location: "San Francisco",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSJiFgnYNscgb9g3uGXcQfpfnJ8XhPMF-Gw&usqp=CAU",
+          "img/Bob.jpeg",
         description: "Bob is a pug who loves to play fetch and is a good",
         gender: "Male",
         size: "Medium",
@@ -62,7 +62,7 @@ describe("Dog Datbase", () => {
         age: "Senior",
         location: "Cape Town, SA",
         image:
-          "https://www.countrysideveterinaryclinic.org/sites/default/files/styles/large/public/german-shepherd-dog-breed-info.jpg",
+          "img/Balto.jpeg",
         description: "German breed of working dog of medium to large size. He has gone through service dog training and is certified. He is especially good for individuals with visual impairment.",
         gender: "Male",
         size: "Medium",
@@ -89,11 +89,11 @@ describe("Dog Datbase", () => {
     const testDog = await Dog.findOne({ where: { name: "Bob" } });
     //expect(testDog.id).toBe(1)
     expect(testDog.name).toBe("Bob");
-    expect(testDog.breed).toBe("pug");
+    expect(testDog.breed).toBe("Pug");
     expect(testDog.age).toBe("Young");
     expect(testDog.location).toBe("San Francisco");
     expect(testDog.image).toBe(
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSJiFgnYNscgb9g3uGXcQfpfnJ8XhPMF-Gw&usqp=CAU"
+      "img/Bob.jpeg"
     );
     expect(testDog.description).toBe(
       "Bob is a pug who loves to play fetch and is a good"
