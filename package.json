@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/Bob-s-Adoption-Center/Backend-Adoption-Center#readme",
   "devDependencies": {
-    "jest": "^27.4.7"
+    "jest": "^27.5.1"
   }
 }
