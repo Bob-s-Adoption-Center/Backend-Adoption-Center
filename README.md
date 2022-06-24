@@ -12,3 +12,7 @@ Team Members:
 
 - Jest
 - SonarCloud
+
+# Deployment
+
+- Heroku
