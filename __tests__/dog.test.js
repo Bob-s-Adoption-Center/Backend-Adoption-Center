@@ -1,5 +1,5 @@
-const { sequelize } = require("./db");
-const { Dog } = require("./models/dog");
+const { sequelize } = require("../db");
+const { Dog } = require("../models/dog");
 
 describe("Dog Datbase", () => {
   beforeAll(async () => {
